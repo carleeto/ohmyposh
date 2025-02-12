@@ -65,6 +65,8 @@ final_space = true
     type = 'text'
     style = 'plain'
     foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}magenta{{end}}']
+    newline = true
 
     [blocks.segments.properties]
       cache_duration = 'none'
+      fetch_status = true
